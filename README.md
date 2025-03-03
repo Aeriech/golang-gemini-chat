@@ -1,5 +1,16 @@
 ## **Getting Started**
 
+### Project Overview
+GoChatAI
+This project is a CLI-based chatbot built in Golang, leveraging Google's Gemini API for natural language processing (NLP). The chatbot allows users to interact with Gemini AI in a conversational manner, processing user inputs and generating intelligent responses. The application manages chat sessions, retrieves an API key from environment variables, and continuously accepts user input until the conversation is ended.
+
+Key Features:
+   ✔️ Gemini AI Integration – Uses Gemini-1.5-Flash for quick, smart responses.
+   ✔️ Command-Line Chat Interface – Enables real-time chat through the terminal.
+   ✔️ Session-Based Conversations – Maintains context throughout the chat session.
+   ✔️ Secure API Key Handling – Uses .env file to store and retrieve API credentials.
+   ✔️ Graceful Exit Handling – Allows users to type 'exit' to end the conversation.
+
 ### Prerequisites
 
 Ensure you have the following installed:
